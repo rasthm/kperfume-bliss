@@ -1,0 +1,8 @@
+# The hero frames and stills never change in place (a new film means new
+# files), so let browsers keep them; hashed JS/CSS can be cached forever.
+/frames/*
+  Cache-Control: public, max-age=604800
+/media/*
+  Cache-Control: public, max-age=604800
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable

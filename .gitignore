@@ -1,0 +1,11 @@
+node_modules
+dist
+video/raw
+.wrangler
+
+# Raw source media (large, kept local)
+assets/
+video/
+/[0-9].png
+.env
+.env.*

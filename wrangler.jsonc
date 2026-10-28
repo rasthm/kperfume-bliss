@@ -1,0 +1,12 @@
+{
+  // Static assets only: the Vite build in dist/ is served straight from
+  // Cloudflare's edge, no Worker script involved.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kperfume-bliss",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
