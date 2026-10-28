@@ -1,6 +1,8 @@
 # KPerfume Bliss
 
-a scroll-driven concept page for the Bliss unisex extrait de parfum. Product facts, notes and prices come from [kperfume.in](https://kperfume.in); this is a concept demo, not the official store.
+A scroll-driven concept page for the Bliss unisex extrait de parfum. Product facts, notes and prices come from [kperfume.in](https://kperfume.in); this is a concept demo, not the official store.
+
+**Live demo:** https://kperfume-bliss.orbit-fm.workers.dev
 
 Built with Vite, React and TypeScript, and deployed on Cloudflare Workers.
 
